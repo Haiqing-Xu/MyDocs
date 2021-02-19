@@ -6,8 +6,8 @@
 
 ## Why do I choose OmniOS+napp-it ?
 
-[![OmniOS](https://github.com/tiger2010/SNOO/raw/master/Screenshots/OmniOS_logo.png)](https://www.omniosce.org/)
- 
+[![OmniOS](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/OmniOS_logo.png)](https://www.omniosce.org/)
+
  OmniOS builds on Illumos to make a complete operating system.
 
 current stable 151024
@@ -18,7 +18,7 @@ consider to become a Patron, see [https://omniosce.org/patron.html](https://omni
 
 
 
-[![napp-it](https://github.com/tiger2010/SNOO/raw/master/Screenshots/logo-hp.png)](https://www.napp-it.org/)
+[![napp-it](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/logo-hp.png)](https://www.napp-it.org/)
 
  the next generation ZFS-Server advanced and browser managed free internet nas san & backup server.
 
@@ -38,12 +38,12 @@ Napp-It’s free extensions include:
     proFTPD
     Serviio Mediaserver
     Groupware Tine20
- ```
+```
 -----------
 
 ## 在 VMware ESXi 中安装 OmniOS 
 
-[![napp-it](https://github.com/tiger2010/SNOO/raw/master/Screenshots/vmware_logo.png)](https://www.vmware.com/)
+[![napp-it](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/vmware_logo.png)](https://www.vmware.com/)
 
 ESXi as base for a virtualized NAS/SAN appliance (napp-in-one)  
 For napp-in-one, you can use a free or licenced edition of ESXi.
@@ -64,7 +64,7 @@ From your download you can request a final free key for unlimited usage of ESXi 
 
 步骤1.关闭将升级的ESXi服务器上运行的虚拟机(VMs),并设置交换数据存储位置。
 
-![](https://github.com/tiger2010/SNOO/raw/master/Screenshots/VMware_store.png)
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/VMware_store.png)
 
 步骤2.设置ESXi服务器进入维护模式。这将帮助关闭hypervisor运行，并且允许服务器升级的所有关键服务。
 ```Bash
@@ -138,19 +138,19 @@ vmware -v
 
   1、选择`创建新虚拟机`
 
-  ![](https://github.com/tiger2010/SNOO/raw/master/Screenshots/ESXI_Create.PNG)
+  ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/ESXI_Create.PNG)
 
   2、OS 类型选择 `Oracle Solaris 11 (64 位)`
 
-  ![](https://github.com/tiger2010/SNOO/raw/master/Screenshots/ESXI_OS.PNG)
+  ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/ESXI_OS.PNG)
 
   3、根据需要调整CPU、内存和硬盘参数，网卡类型选择 `VMXNET3`,并挂载 OmniOS 系统安装光盘镜像。
 
-  ![](https://github.com/tiger2010/SNOO/raw/master/Screenshots/ESXI_VMXNET3.PNG)
+  ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/ESXI_VMXNET3.PNG)
 
   虚拟机的创建即告完成。
 
-  -------
+-------
 #### 二、安装 OmniOS
 
 乏善可陈，基本上 F2（下一步）、F2、F2 ... 就完成了。好吧，我们的重点在于后续的 VMXNet3 万兆网卡的配置。
@@ -487,7 +487,7 @@ If "Create boot environment" is Yes, then a reboot will be required. Upgrading t
 ### 系统调整
 
 #### 修改系统时间
- 
+
  用root用户登陆后修改。修改时间就用date命令就性，格式为date mmddHHMMYYYY.SS，月日时分年.秒.
 ```Bash
  date 041610362008.44
