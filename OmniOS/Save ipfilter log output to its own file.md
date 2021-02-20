@@ -15,6 +15,7 @@ online         18:57:04 svc:/system/system-log:default
 ##### 2.通过添加以下两行来编辑 /etc/syslog.conf 文件
 
 ```bash
+shell> vim /etc/syslog.conf
 ## Save IP Filter log output to its own file
 local0.debug	/var/log/ipmon.log
 ```
@@ -22,13 +23,13 @@ local0.debug	/var/log/ipmon.log
 ##### 3.创建新日志文件
 
 ```bash
-shell> /var/log/ipmon.log
+shell> touch /var/log/ipmon.log
 ```
 
 ##### 4. 重新启动system-log服务
 
 ```bash
-shell> restart system-log
+shell>svcadm restart system-log
 ```
 
 或
@@ -43,14 +44,6 @@ shell> svcadm refresh system-log:default
 
 ```
 cat /var/ipmon.log | grep ip
-```
-
-
-
-备注：应该也可以用下面的方法代替syslog记录日志
-
-```
-ipmon -aD /var/log/ipmon.log
 ```
 
 
