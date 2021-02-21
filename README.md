@@ -28,3 +28,7 @@
 #### [1. Creating and Editing crontab Files](https://github.com/Haiqing-Xu/MyDocs/blob/main/OmniOS/Creating%20and%20Editing%20crontab%20Files.md#creating-and-editing-crontab-files)
 
 #### [2. Save ipfilter log output to its own file](https://github.com/Haiqing-Xu/MyDocs/blob/main/OmniOS/Save%20ipfilter%20log%20output%20to%20its%20own%20file.md#%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE%E5%92%8C%E6%9F%A5%E7%9C%8B-ipfilter-%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6)
+
+#### [3. Setup Nextcloud On OmniOS](https://github.com/Haiqing-Xu/MyDocs/blob/main/OmniOS/Setup%20Nextcloud%20On%20OmniOS.md#snoo)
+
+#### [4. Setup Proftpd With TLS](https://github.com/Haiqing-Xu/MyDocs/blob/main/OmniOS/Setup%20Nextcloud%20On%20OmniOS.md#setup-nextcloud-on-omnios)
