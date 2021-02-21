@@ -1,6 +1,4 @@
-# __SNOO__
-
-海清的GitHub自留地 —— Setup Nextcloud On OmniOS
+# Setup Nextcloud On OmniOS
 
 ---------
 
