@@ -41,7 +41,7 @@ shell> sudo vim /etc/php/7.3/fpm/php.ini
 ```
 
 ```
-;cgi.fix_pathinfo=1		=>	cgi.fix_pathinfo=1
+;cgi.fix_pathinfo=1	=>	cgi.fix_pathinfo=1
 ```
 
 Next, make the following changes:
