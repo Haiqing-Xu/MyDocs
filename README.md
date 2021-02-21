@@ -19,7 +19,7 @@
 
 ## ◆ MySQL
 
-#### [1. Steps for a Fresh Installation of MySQL](https://github.com/Haiqing-Xu/MyDocs/blob/main/MySQL/Steps for a Fresh Installation of MySQL.md)
+#### [1. Steps for a Fresh Installation of MySQL](https://github.com/Haiqing-Xu/MyDocs/blob/main/MySQL/Steps%20for%20a%20Fresh%20Installation%20of%20MySQL.md#steps-for-a-fresh-installation-of-mysql)
 
 
 
