@@ -1,4 +1,4 @@
-# Installing Lighttpd, PHP 7.3 on Debian 10
+# Installing Lighttpd and PHP 7.3 on Debian 10
 
 In this guide, we are going to explain the steps in installing Lighttpd, PHP, and SQLite3 on Debian 10.
 
