@@ -1,6 +1,5 @@
 # Setup Nextcloud On OmniOS
 
----------
 
 ## Why do I choose OmniOS+napp-it ?
 
