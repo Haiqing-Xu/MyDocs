@@ -57,13 +57,13 @@
 
 #### 10. Configureing popularity-contest （参加软件包流行度调查）
 
-#### 11. 选择要安装的软件
+#### 11. Software selection （选择要安装的软件）
 
-#### 12. 安装GRUB启动引导器
-(1) 将GRUB启动引导器安装至您的主驱动器
+#### 12. Install the GRUB boot loader （安装GRUB启动引导器）
+(1) Install the GRUB boot loader to your primary drive （将GRUB启动引导器安装至您的主驱动器）
 
-(2) 安装启动引导器的设备
+(2) Device for boot loader installation （安装启动引导器的设备）
 
-#### 13. 结束安装进程
+#### 13. Finish the installation （结束安装进程）
 
 
