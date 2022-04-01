@@ -36,6 +36,16 @@
 
 (2) Select disk to partition （选择需要分区的磁盘）
 
+(3) partitioning scheme （选择分区方案）
+
+(4) Overview of your currently configured partitions and mount points （分区设置方案和挂载点概述）
+
+(5) Write the changes to disk （把分区设置方案写入磁盘）
+
+#### 9. Configure the package manager （配置包管理器）
+(1) Scan extra installation media （扫描额外的安装媒介）
+
+(2) Debian archive mirror country （Debian 存档镜像所在的国家）
 
 
 
