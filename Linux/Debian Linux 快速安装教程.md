@@ -8,30 +8,48 @@
 #### 2. Select a language （选择安装语言）
 默认选择English，下面介绍都是以英语安装界面为主
 
-
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/2_localechooser_languagelist_0.png)
 
 #### 3. Select your location （选择区域）
 这里涉及到时区，选择 other->Asia->China
 
-
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/3.1_localechooser_shortlist_0.png)
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/3.2_localechooser_continentlist_0.png)
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/3.3_localechooser_countrylist_Asia_0.png)
 
 #### 4. Select locales 选择你的语言环境
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/4_localechooser_preferred-locale_0.png)
+
 #### 5. Configure the keyboard (设置键盘映射)
+
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/5_keyboard-configuration_xkb-keymap_0.png)
 
 #### 6. Configure the network (设置网络）
 (1) Enter the hostname for this system （输入系统的主机名）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/6.1_netcfg_get_hostname_0.png)
+
 (2) Enter the domain （输入该系统的域名）
+
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/6.2_netcfg_get_domain_0.png)
 
 #### 7. Set up users and passwords (设置用户和密码）
 (1) Set a password for root （设置root密码）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/7.1_passwd_root-password_0.png)
+
 (2) Create a user account, and enter the full name (新建一个普通用户账号,输入新用户的全名)
+
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/7.2_passwd_user-fullname_0.png)
 
 (3) Select the username for the new account （为新的账号选择用户名）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/7.3_passwd_username_0.png)
+
 (4) （为新用户选择一个密码）
+
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/7.4_passwd_user-password_0.png)
 
 #### 8. Partition disks （磁盘分区）
 (1) Use entire disk （使用整个磁盘）
