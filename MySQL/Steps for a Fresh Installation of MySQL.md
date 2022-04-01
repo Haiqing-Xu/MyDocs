@@ -1,10 +1,22 @@
-# Steps for a Fresh Installation of MySQL
+# Steps for a Fresh Installation of MySQL On Debian Linux
+
+#### 2. Installing gnupg
+
+mysql-apt-config pre-depends on gnupg, so install gnupg first
+
+```bash
+shell> sudo apt install gnupg
+```
 
 #### 1. Adding the MySQL APT Repository
 
  First, add the MySQL APT repository to your system's software repository list. Follow these steps:
 
 a. Go to the download page for the MySQL APT repository at https://dev.mysql.com/downloads/repo/apt/.
+
+```bash
+shell> wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
+```
 
 b. Select and download the release package for your Linux distribution.
 
@@ -25,7 +37,7 @@ shell> sudo apt update
 #### 2. Installing MySQL with APT
 
 ```bash
-shell> sudo apt-get install mysql-server
+shell> sudo apt install mysql-server
 ```
 
 This installs the package for the MySQL server, as well as the packages for the client and for the database common files.
