@@ -1,14 +1,12 @@
-# __How to Set Up SSH Keys on Debian 10__
+# __Debian Linux 快速安装教程__
 
-1. ##### Create the RSA Key Pair
+##### 1. 启动 Debian 安装程序
+选择Graphical install，回车
 
-```bash
-~$ mkdir .ssh 
-~$ cd .ssh
-$ ssh-keygen
-```
 
-2. ##### Copy the Public Key to Debian Server
+
+##### 2. Select a language (选择安装语言)
+默认选择English，下面介绍都是以英语安装界面为主
 
 ```bash
 $ ssh-copy-id username@remote_host
@@ -21,7 +19,7 @@ copy the path (ex: /home/user_name/.ssh/id_rsa.pub) and run the following comman
 $ ssh-copy-id -i /home/user_name/.ssh/id_rsa.pub username@remote_host
 ```
 
-##### 3. Authenticate to Debian Server Using SSH Keys
+##### 3. 选择区域，这里涉及到时区，选择 other->Asia->China
 
 ```bash
 $ ssh username@remote_host
