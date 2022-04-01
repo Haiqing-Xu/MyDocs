@@ -54,34 +54,61 @@
 #### 8. Partition disks （磁盘分区）
 (1) Use entire disk （使用整个磁盘）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/8.1_partman-auto_init_automatically_partition_0.png)
+
 (2) Select disk to partition （选择需要分区的磁盘）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/8.2_partman-auto_select_disk_0.png)
+
 (3) partitioning scheme （选择分区方案）
-将所有文件放在同一个分区中（推荐新手使用）
+All files in one partition (recommended for new users) 将所有文件放在同一个分区中（推荐新手使用）
+
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/8.3_partman-auto_choose_recipe_0.png)
 
 (4) Overview of your currently configured partitions and mount points （目前已配置的分区和挂载点的综合信息）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/8.4_partman_choose_partition_0.png)
+
 (5) Write the changes to disk （将改动写入磁盘）
+
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/8.5_partman_confirm_nooverwrite_0.png)
 
 #### 9. Configure the package manager （配置软件包管理器）
 (1) Scan extra installation media （扫描额外的安装介质）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/9.1_apt-setup_cdrom_set-first_0.png)
+
 (2) Debian archive mirror country （Debian 仓库镜像所在的国家）
+
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/9.2_mirror_http_countries_0.png)
 
 (3) Debian archive mirror （Debian 仓库镜像服务器）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/9.3_mirror_http_mirror_0.png)
 
 (4) HTTP proxy information （HTTP 代理信息，如果没有请留空）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/9.4_mirror_http_proxy_0.png)
+
 #### 10. Configureing popularity-contest （参加软件包流行度调查）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/10_popularity-contest_participate_0.png)
+
 #### 11. Software selection （选择要安装的软件）
+
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/11_tasksel_first_0.png)
 
 #### 12. Install the GRUB boot loader （安装GRUB启动引导器）
 (1) Install the GRUB boot loader to your primary drive （将GRUB启动引导器安装至您的主驱动器）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/12.1_grub-installer_only_debian_0.png)
+
 (2) Device for boot loader installation （安装启动引导器的设备）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/12.2_grub-installer_choose_bootdev_0.png)
+
 #### 13. Finish the installation （结束安装进程）
+
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/13_finish-install_reboot_in_progress_0.png)
 
 
