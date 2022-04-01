@@ -5,38 +5,39 @@
 
 
 
-#### 2. Select a language (选择安装语言)
+#### 2. Select a language （选择安装语言）
 默认选择English，下面介绍都是以英语安装界面为主
 
-```bash
-$ ssh-copy-id username@remote_host
-```
-or
 
-copy the path (ex: /home/user_name/.ssh/id_rsa.pub) and run the following command: 
 
-```bash
-$ ssh-copy-id -i /home/user_name/.ssh/id_rsa.pub username@remote_host
-```
+#### 3. Select your location （选择区域）
+这里涉及到时区，选择 other->Asia->China
 
-##### 3. 选择区域，这里涉及到时区，选择 other->Asia->China
 
-```bash
-$ ssh username@remote_host
-```
 
-4. ##### Disable Password Authentication on your Server
+#### 4. Select locales 选择你的语言环境
 
-```bash
-$ sudo vim /etc/ssh/sshd_config
-```
+#### 5. Configure the keyboard (设置键盘映射)
 
-```
-...
-PasswordAuthentication no
-...
-```
+#### 6. Configure the network (设置网络）
+(1) Enter the hostname for this system （输入主机名称）
 
-```bash
-$ sudo systemctl restart ssh
-```
+(2) Enter the domain （输入域名）
+
+#### 7. Set up users and passwords (设置用户和密码）
+(1) Set a password for root （设置root密码）
+
+(2) Create a user account, and enter the full name (新建一个用户,输入全名)
+
+(3) Select the username for the new account （输入用户名）
+
+#### 8. Partition disks （磁盘分区）
+(1) Use entire disk （使用整个磁盘）
+
+(2) Select disk to partition （选择需要分区的磁盘）
+
+
+
+
+
+
