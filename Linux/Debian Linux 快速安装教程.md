@@ -18,7 +18,9 @@
 这里涉及到时区，选择 other->Asia->China
 
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/3.1_localechooser_shortlist_0.png)
+
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/3.2_localechooser_continentlist_0.png)
+
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/3.3_localechooser_countrylist_Asia_0.png)
 
 
