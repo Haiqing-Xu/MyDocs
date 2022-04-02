@@ -1,9 +1,11 @@
-# __Debian Linux Quick Installation Manual 快速安装教程__
+# __Debian Linux Quick Installation Manual 快速安装手册__
 
 
 #### 我为什么选择 Debian Linux
 
-Debian 是社区类 Linux 的典范，是迄今为止最遵循 GNU 规范的 Linux 系统。
+Debian 是社区类 Linux 的典范，是迄今为止最遵循 GNU 规范的 Linux 系统，这也是我为什么喜欢 Debian 并熬夜制作这份快速安装教程的原因。
+
+需要更详细的文档请移步 [https://www.debian.org/doc/](https://www.debian.org/doc/)
 
 
 
