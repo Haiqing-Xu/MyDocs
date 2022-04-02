@@ -72,7 +72,7 @@ Select "Use Legacy Authentication Method (Retain MySQL 5.x Compatibility)" （�
 ```
 
 
-![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/4_vi.PNG)
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/4_vi.png)
 
 
 
@@ -81,3 +81,16 @@ Select "Use Legacy Authentication Method (Retain MySQL 5.x Compatibility)" （�
 ```bash
 # bash install_after_mysql-Server_installed_debian11.sh
 ```
+
+出现以下界面则安装成功
+
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/5_enjoy.png)
+
+##### 8. 修改网站和判题机的配置文件
+
+```bash
+# vi /var/www/web/OJ/include/static.php
+# vi /home/judge/etc/judge.conf
+```
+
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/6_static.png)
