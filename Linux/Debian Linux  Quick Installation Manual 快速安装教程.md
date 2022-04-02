@@ -130,6 +130,8 @@ All files in one partition (recommended for new users) 将所有文件放在同�
 
 #### 11. Software selection （选择要安装的软件）
 
+去掉桌面环境 Debian desktop environment 和 GNOME，选中 SSH Server，便于后期用SSH远程登录管理系统。
+
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/11_tasksel_first_0.png)
 
 
