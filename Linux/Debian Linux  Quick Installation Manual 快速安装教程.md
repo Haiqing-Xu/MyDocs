@@ -52,7 +52,7 @@ Debian 是社区类 Linux 的典范，是迄今为止最遵循 GNU 规范的 Lin
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/6.1_netcfg_get_hostname_0.png)
 
 
-(2) Enter the domain （输入该系统的域名）
+(2) Enter the domain （输入该系统的域名, 如果没有请留空）
 
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/6.2_netcfg_get_domain_0.png)
 
