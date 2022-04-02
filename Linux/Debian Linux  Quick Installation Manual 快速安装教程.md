@@ -14,14 +14,14 @@ Debian 是社区类 Linux 的典范，是迄今为止最遵循 GNU 规范的 Lin
 
 
 #### 2. Select a language （选择安装语言）
-默认选择English，下面介绍都是以英语安装界面为主
+默认选择 English，下面介绍都是以英语安装界面为主
 
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/2_localechooser_languagelist_0.png)
 
 
 
 #### 3. Select your location （选择区域）
-这里涉及到时区，选择 other->Asia->China
+这里涉及到时区，选择 other -> Asia -> China
 
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/3.1_localechooser_shortlist_0.png)
 
