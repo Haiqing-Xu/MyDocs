@@ -2,7 +2,7 @@
 # __HZNUOJ Installation Manual For Debian Linux__
 
 
-### 注意：以下命令成功需要root在普通用户目录下执行为前提
+### 注意：需要以root身份切换到普通用户目录下，再执行以下命令
 
 
 ##### 1. 添加环境变量
@@ -35,10 +35,11 @@ Go to the download page for the MySQL APT repository at [https://dev.mysql.com/d
 # dpkg -i ./mysql-apt-config_0.8.22-1_all.deb
 ```
 
-Configuring mysql-apt-config
-Select last option 'Ok' to save the configuration
+Configuring mysql-apt-config, Select last option 'Ok' to save the configuration
 
-then run 'apt update' to load package list
+![]()
+
+then run 'apt-get update' to load package list
 
 ```bash
 # apt-get update
@@ -49,13 +50,20 @@ then run 'apt update' to load package list
 ```bash
 ~# apt install mysql-server
 ```
-Set root password
+Enter root password
 
 
 Select "Use Legacy Authentication Method (Retain MySQL 5.x Compatibility)" （上面的"Use Strong Password Encryption",虽然官方推荐，但是HZNUOJ不兼容这种加密方式）
 
 
+##### 6. 下载 HZNUOJ 源码
 
 ```bash
-$ sudo systemctl restart ssh
+# git clone https://github.com/Haiqing-Xu/HZNUOJ.git
+```
+
+##### 6. 修改 安装脚本中 mysql-server 的 root 密码
+
+```bash
+# cd 
 ```
