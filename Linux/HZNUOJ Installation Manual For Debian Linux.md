@@ -86,7 +86,7 @@ Select "Use Legacy Authentication Method (Retain MySQL 5.x Compatibility)" （�
 
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/5_enjoy.png)
 
-##### 8. 修改网站和判题机的配置文件
+##### 8. 修改网站和判题机配置文件中 Mysql 的数据库密码
 
 ```bash
 # vi /var/www/web/OJ/include/static.php
@@ -94,3 +94,4 @@ Select "Use Legacy Authentication Method (Retain MySQL 5.x Compatibility)" （�
 ```
 
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/6_static.png)
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/6_judge.png)
