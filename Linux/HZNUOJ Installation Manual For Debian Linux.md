@@ -94,4 +94,5 @@ Select "Use Legacy Authentication Method (Retain MySQL 5.x Compatibility)" ï¼ˆä¸
 ```
 
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/6_static.png)
+
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/6_judge.png)
