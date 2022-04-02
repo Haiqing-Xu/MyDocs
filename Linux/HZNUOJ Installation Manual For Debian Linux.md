@@ -96,3 +96,6 @@ Select "Use Legacy Authentication Method (Retain MySQL 5.x Compatibility)" （�
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/6_static.png)
 
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/6_judge.png)
+
+
+启动浏览器，输入网站地址，enjoy ;)
