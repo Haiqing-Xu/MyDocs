@@ -67,5 +67,12 @@ Select "Use Legacy Authentication Method (Retain MySQL 5.x Compatibility)" （�
 ##### 6. 修改 安装脚本中 mysql-server 的 root 密码
 
 ```bash
-# cd 
+# cd HZNUOJ/judger/install/
+# vi install_after_mysql-Server_installed_debian11.sh
+```
+
+##### 7. 执行自动安装脚本
+
+```bash
+# bash install_after_mysql-Server_installed_debian11.sh
 ```
