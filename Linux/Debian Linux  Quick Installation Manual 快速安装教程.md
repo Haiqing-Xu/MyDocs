@@ -6,6 +6,7 @@
 Debian 是社区类 Linux 的典范，是迄今为止最遵循 GNU 规范的 Linux 系统。
 
 
+
 #### 1. 启动 Debian 安装程序
 选择 Graphical install，回车
 
