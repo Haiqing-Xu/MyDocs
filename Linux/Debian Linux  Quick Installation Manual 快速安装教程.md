@@ -1,5 +1,11 @@
 # __Debian Linux Quick Installation Manual 快速安装教程__
 
+
+#### 我为什么选择 Debian Linux
+
+Debian 是社区类 Linux 的典范，是迄今为止最遵循 GNU 规范的 Linux 系统。
+
+
 #### 1. 启动 Debian 安装程序
 选择Graphical install，回车
 
