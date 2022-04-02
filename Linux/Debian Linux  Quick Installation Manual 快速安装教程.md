@@ -7,7 +7,7 @@ Debian 是社区类 Linux 的典范，是迄今为止最遵循 GNU 规范的 Lin
 
 
 #### 1. 启动 Debian 安装程序
-选择Graphical install，回车
+选择 Graphical install，回车
 
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/1_start.png)
 
@@ -56,7 +56,7 @@ Debian 是社区类 Linux 的典范，是迄今为止最遵循 GNU 规范的 Lin
 
 
 #### 7. Set up users and passwords (设置用户和密码）
-(1) Set a password for root （设置root密码）
+(1) Set a password for root （设置 root 密码）
 
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/7.1_passwd_root-password_0.png)
 
@@ -136,14 +136,14 @@ All files in one partition (recommended for new users) 将所有文件放在同�
 
 #### 11. Software selection （选择要安装的软件）
 
-去掉桌面环境 Debian desktop environment 和 GNOME，选中 SSH Server，便于后期用SSH远程登录管理系统。
+去掉桌面环境 Debian desktop environment 和 GNOME，选中 SSH Server，便于后期用 SSH 远程登录管理系统。
 
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/11_tasksel_first_0.png)
 
 
 
 #### 12. Install the GRUB boot loader （安装GRUB启动引导器）
-(1) Install the GRUB boot loader to your primary drive （将GRUB启动引导器安装至您的主驱动器）
+(1) Install the GRUB boot loader to your primary drive （将 GRUB 启动引导器安装至您的主驱动器）
 
 
 ![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/12.1_grub-installer_only_debian_0.png)
