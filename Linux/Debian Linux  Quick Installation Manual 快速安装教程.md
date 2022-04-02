@@ -1,4 +1,4 @@
-# __Debian Linux 快速安装教程__
+# __Debian Linux Quick Installation Manual 快速安装教程__
 
 #### 1. 启动 Debian 安装程序
 选择Graphical install，回车
