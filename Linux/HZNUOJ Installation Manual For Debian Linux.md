@@ -37,7 +37,7 @@ Go to the download page for the MySQL APT repository at [https://dev.mysql.com/d
 
 Configuring mysql-apt-config, Select last option 'Ok' to save the configuration
 
-![]()
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/1_mysql.PNG)
 
 then run 'apt-get update' to load package list
 
@@ -52,9 +52,11 @@ then run 'apt-get update' to load package list
 ```
 Enter root password
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/2_mysql.PNG)
 
 Select "Use Legacy Authentication Method (Retain MySQL 5.x Compatibility)" （上面的"Use Strong Password Encryption",虽然官方推荐，但是HZNUOJ不兼容这种加密方式）
 
+![](https://github.com/Haiqing-Xu/MyDocs/blob/main/Images/3_mysql.PNG)
 
 ##### 6. 下载 HZNUOJ 源码
 
