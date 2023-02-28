@@ -80,11 +80,20 @@ esxcli network firewall ruleset set -e true -r httpClient
 esxcli software sources profile list -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml | grep ESXi-6.5.0-2017
 ```
 
+查看本地升级文件
+```Bash
+esxcli software sources profile list -d /vmfs/volumes/639841cd-ad968008-f160-3868dd48bc78/ISO/VMware-ESXi-8.0b-21203435-depot.zip
+```
+
 步骤5.选择版本升级。
 ```Bash
 esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-6.5.0-20171204001-standard
 ```
 
+本地升级
+```Bash
+esxcli software profile update -d /vmfs/volumes/639841cd-ad968008-f160-3868dd48bc78/ISO/VMware-ESXi-8.0b-21203435-depot.zip -p ESXi-8.0b-21203435-standard
+```
 步骤6.重新启动服务器。
 在升级进程完成后，服务器的重新启动要求为了新版本能生效。运行命令：
 ```Bash
