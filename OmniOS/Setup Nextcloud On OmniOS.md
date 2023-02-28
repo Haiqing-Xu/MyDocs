@@ -90,7 +90,7 @@ esxcli software sources profile list -d /vmfs/volumes/639841cd-ad968008-f160-386
 esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-6.5.0-20171204001-standard
 ```
 
-本地升级
+本地升级命令
 ```Bash
 esxcli software profile update -d /vmfs/volumes/639841cd-ad968008-f160-3868dd48bc78/ISO/VMware-ESXi-8.0b-21203435-depot.zip -p ESXi-8.0b-21203435-standard
 ```
