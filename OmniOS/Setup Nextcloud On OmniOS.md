@@ -554,10 +554,18 @@ wget -O - www.napp-it.org/nextcloud-11.0.1a  | perl
 ```
 
 ### 设置SMB共享
+Add entry to /etc/pam.conf for pam_smb_passwd
+```Bash
+# smb settings set by napp-it installer
+other   password required   pam_smb_passwd.so.1 nowarn
+```
+
 ```Bash
 zfs set sharesmb=on tank/xhq
 zfs set sharesmb=name=xhq$ tank/xhq
+passwd xhq
 ```
+
 
 ### 查看MAC地址
 ```Bash
