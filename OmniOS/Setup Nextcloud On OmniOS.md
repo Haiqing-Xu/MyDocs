@@ -564,7 +564,7 @@ other   password required   pam_smb_passwd.so.1 nowarn
 zfs create tank/pub
 zfs set sharesmb=on tank/pub
 zfs set sharesmb=name=pub,guestok=true tank/pub
-passwd xhq
+passwd guest
 ```
 
 
