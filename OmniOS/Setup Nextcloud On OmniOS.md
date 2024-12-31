@@ -561,9 +561,9 @@ other   password required   pam_smb_passwd.so.1 nowarn
 ```
 
 ```Bash
-zfs create /tank/xhq
+zfs create tank/xhq
 zfs set sharesmb=on tank/xhq
-zfs set sharesmb=name=xhq$ tank/xhq
+zfs set sharesmb=name=xhq$,guestok=true tank/xhq
 passwd xhq
 ```
 
